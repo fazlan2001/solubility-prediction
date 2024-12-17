@@ -1,4 +1,4 @@
-# Molecular Solubility Prediction Using Machine Learning
+# Molecular Solubility Prediction Using Random Forest Regressor Machine Learning Model
 
 ## 📌 Project Overview
 
