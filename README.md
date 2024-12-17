@@ -2,19 +2,19 @@
 
 ## 📌 Project Overview
 
-This project focuses on predicting molecular solubility (logS) using machine learning models. The dataset contains molecular descriptors, including molecular weight, partition coefficient (LogP), number of rotatable bonds, and aromatic proportions, with the target variable being the logarithm of solubility (logS).
+This project focuses on predicting molecular solubility (logS) using machine learning models. The dataset contains molecular descriptors, including **molecular weight**, **partition coefficient (LogP)**, **number of rotatable bonds**, and **aromatic proportions**, with the target variable being the logarithm of solubility **(logS)**.
 
 The project explores multiple machine learning algorithms, evaluates their performance, and visualizes key insights.
 
 ## Dataset
 
-  - Source: [Delaney Solubility Dataset](https://raw.githubusercontent.com/dataprofessor/data/refs/heads/master/delaney_solubility_with_descriptors.csv)
+  - **Source:** [Delaney Solubility Dataset](https://raw.githubusercontent.com/dataprofessor/data/refs/heads/master/delaney_solubility_with_descriptors.csv)
   - The [Delaney Solubility Dataset](https://raw.githubusercontent.com/dataprofessor/data/refs/heads/master/delaney_solubility_with_descriptors.csv) contains chemical descriptors and solubility measurements for various compounds. The dataset includes the following columns:
-      - MolLogP: Logarithm of the partition coefficient.
-      - MolWt: Molecular weight of the molecule.
-      - NumRotatableBonds: Number of rotatable bonds in the molecule.
-      - AromaticProportion: Proportion of aromatic atoms.
-      - logS: Target variable - logarithm of solubility.
+      - **MolLogP**: Logarithm of the partition coefficient.
+      - **MolWt:** Molecular weight of the molecule.
+      - **NumRotatableBonds:** Number of rotatable bonds in the molecule.
+      - **AromaticProportion:** Proportion of aromatic atoms.
+      - **logS:** Target variable - logarithm of solubility.
   - Size: 1144 rows × 5 columns
 
 #### This dataset is used to predict the solubility of chemical compounds based on these descriptors.
@@ -26,12 +26,12 @@ The project explores multiple machine learning algorithms, evaluates their perfo
 
 ## Goals and Objective
 
-  1. Data Analysis: Perform Exploratory Data Analysis (EDA) to identify relationships between features and solubility.
+  1. **Data Analysis:** Perform Exploratory Data Analysis (EDA) to identify relationships between features and solubility.
 
-  2. Machine Learning Models: Train and evaluate the following models:
+  2. **Machine Learning Models:** Train and evaluate the following models:
       - Random Forest Regressor
 
-  3. Model Evaluation: Assess models using:
+  3. **Model Evaluation:** Assess models using:
        - Root Mean Squared Error (RMSE)
        - Mean Absolute Error (MAE)
        - R² Score
@@ -66,19 +66,25 @@ The project explores multiple machine learning algorithms, evaluates their perfo
         - Launch Jupyter Notebook and open MLCW.ipynb:
             - jupyter notebook MLCW.ipynb
          
-
+## 🔧 Requirements
+ - Add these dependencies in a requirements.txt file:
+     - scikit-learn
+     - pandas
+     - matplotlib
+     - seaborn
+     - jupyter  
 
 ## 📊 Visualizations
 
-  1. Feature Correlation Heatmap
-  2. box Plots before Outliers and after handling outliers (e.g., MolWt vs. logS, MolLogP vs. logS)
-  3. Model Performance Comparison using bar plots for RMSE, MAE, and R².
+  1. **Feature Correlation Heatmap**
+  2. **box Plots** before Outliers and after handling outliers (e.g., MolWt vs. logS, MolLogP vs. logS)
+  3. **Model Performance Comparison** using bar plots for RMSE, MAE, and R².
 
 ## 🔮 Future Work
 
-  - Hyperparameter Tuning for models to further improve accuracy.
-  - Feature Engineering: Add more molecular descriptors to enrich the dataset.
-  - Model Deployment: Use Flask/Streamlit to create a simple app for solubility prediction.
+  - **Hyperparameter Tuning** for models to further improve accuracy.
+  - **Feature Engineering:** Add more molecular descriptors to enrich the dataset.
+  - **Model Deployment**: Use Flask/Streamlit to create a simple app for solubility prediction.
 
 
 ## 📝 License
@@ -87,8 +93,8 @@ The project explores multiple machine learning algorithms, evaluates their perfo
 
 ## 🤝 Acknowledgments
 
-  - Dataset: Delaney Solubility Dataset by Data Professor.
-  - Tools: scikit-learn, pandas, matplotlib.
+  - **Dataset:** Delaney Solubility Dataset by **[Data Professor](https://github.com/dataprofessor)**.
+  - **Tools:** scikit-learn, pandas, matplotlib.
 
 ## 📬 Contact
   - For questions, reach me at [fazlanfowmy@gmail.com].
