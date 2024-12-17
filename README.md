@@ -97,7 +97,7 @@ The project explores multiple machine learning algorithms, evaluates their perfo
   - **Tools:** scikit-learn, pandas, matplotlib.
 
 ## 📬 Contact
-  - For questions, reach me at [fazlanfowmy@gmail.com].
+  - For questions, reach me at fazlanfowmy@gmail.com.
 
 
 
